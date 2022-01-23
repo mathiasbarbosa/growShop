@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bkgBody{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("./images/man-vaping-from-hookah-bar-mediumV2.jpg");
+    background-repeat: no-repeat;
+    height:905px ;
+}
+body{
+    background-color:rgba(0, 0, 0, 0.9) ;
+}
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(0,0,0,0.4) ;
+    height: 48px;
+    
+}
+
+.listItems{
+    display: flex;
+    justify-content: space-between;
+    margin-right:50px;
+    
+}
+
+.listItems > li {
+    list-style: none;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.listItems > li > a{
+    color: rgba(255, 255, 255, 0.6);;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.listItems > li:hover{
+    border:1px solid rgba(19, 109, 24, 0.6);
+    border-radius: 15%;
+    background-color: rgba(19, 109, 24, 0.6);
+}
+
+.listItems > li > a:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* CATEGORY LIST */
+#categoryProducts{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    position: relative;
+    top: 500px;
+}
+
+.ccontainerCategory{
+    width: 150px;
+    height: 50px;
+    border-radius: 15%;
+    border-style:solid;
+    border-color: rgba(19, 109, 24, 0.6) ;
+    margin: 5px;
+    display: flex;
+
+}
+
+.categoryItem{
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: auto;
+    border: none;
+
+}
+
+.categoryItem:hover{
+    color: rgb(255, 255, 255);
+}
+
+.ccontainerCategory:hover{
+    background-color: rgba(19, 109, 24, 0.6);
+}
+
+#jeans{
+    grid-column: 1;
+}
+#remeras{
+    grid-column: 3;
+}
+#buzo{
+    grid-column: 2;
+}
+
+/* nosotros*/
+
+.aboutUs{
+    color: white;
+    width: 500px;
+    position: absolute;
+    right: 100px;
+    top: 260px;
+    
+}
+.title{
+    color: rgb(255, 255, 255);
+}
+
+
+/*footer*/
+.footer{
+    height: 50px;
+    position: absolute;
+    top: 900px;
+    z-index: 1;
+}
+
+/* pages products */
+
+.containerProducts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.cardProducts{
+    width: 300px;
+    height: 500px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15%;
+    border-style:solid;
+    border-top: none;
+    border-bottom: none;
+    border-color: rgba(19, 109, 24, 0.6) ;
+    
+}
+
+.cardProducts:hover{
+    background-color:rgba(19, 109, 24, 0.2) ;
+}
+.cardProducts > h2   {
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+}
+
+.cardProducts > p   {
+    color: #fff;
+    position: relative;
+    bottom: 20px;
+}
+
+
+.imgProducts{
+    border-radius: 50%;
+    width: 290px ;
+    height: 250px;
+}
+
+.buttonAdd{
+    width: 125px;
+    height: 50px;
+    font-size: 15px;
+    padding: 8px;
+    position: relative;
+    bottom: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    background: none;
+    border-radius: 15%;
+    border-style:solid;
+    border-color: rgba(19, 109, 24, 0.6) ;
+}
+
+.buttonAdd:hover{
+    border: none;
+    color: #fff;
+    background-color:rgba(19, 109, 24, 0.6);
+}
+
+/* cart detail*/
+
+.cartContainer{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 35px;
+    background-color:rgba(0,0,0,0.4) ;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.detailCart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px;
+    color: #fff;
+    
+
+}
+
+.detailCart > img {
+    width: 100px;
+    height: 100px;
+}
+
+.detailCart > button {
+    width: 75px;
+    height: 30px;
+    margin: 5px;
+}
+
+.detailCart > span {
+    width: 150px
+}
+
+.mainCart{
+    display: flex;
+}
+
+.formOrder{
+    margin: 35px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(0,0,0,0.4) ;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.8);
+    padding:  30px;
+}
+.order{
+    width: 150px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+form > input {
+    margin-bottom: 15px;
+    width: 300px;
+    height: 35px;
+    background: none;
+    border: none;
+    border-bottom: 2px rgba(19, 109, 24, 0.6) solid;
+    color: #fff;
+}
+
+form > input:focus{
+    outline: none;
+}
+
+.finishOrder{
+    display: flex;
+    height: 40px;
+    position: absolute;
+    top: 40%;
+    right: 5.9%;
+}

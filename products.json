@@ -1,0 +1,65 @@
+[
+    {
+        "id" : 1,
+        "category" : "grinders",
+        "product" : "Aluminium Grinder",
+        "price" : 0,
+        "image":"../images/aluminumgrinder.jpg"
+    },
+    {
+        "id" : 2,
+        "category" : "grinders",
+        "product" : "Grenade Grinder Metal",
+        "price" :0,
+        "image": "../images/grenadegrinder.jpg"
+    },
+    {
+        "id" : 3,
+        "category" : "grinders",
+        "product" : "Grinder Metal",
+        "price" :0, 
+        "image": "../images/grindermetal.jpg"
+    },
+    {
+        "id" : 4,
+        "category" : "encendedores",
+        "product" : "Zipo Skull",
+        "price" :0, 
+        "image": "../images/zipo.jpg"
+    },
+    {
+        "id" : 5,
+        "category" : "encendedores",
+        "product" : "Zipo Gun",
+        "price" :0, 
+        "image": "../images/zipogun.jpg"
+    },
+    {
+        "id" : 6,
+        "category" : "encendedores",
+        "product" : "Braun F1",
+        "price" :0, 
+        "image": "../images/braunf1.jpg"
+    },
+    {
+        "id" : 7,
+        "category" : "bongs",
+        "product" : "Bong",
+        "price" :0, 
+        "image": "../images/bongpink.jpg"
+    },
+    {
+        "id" : 8,
+        "category" : "bongs",
+        "product" : "Bong",
+        "price" :0, 
+        "image": "../images/bongripper.jpg"
+    },
+    {
+        "id" : 9,
+        "category" : "bongs",
+        "product" : "Bong",
+        "price" :0, 
+        "image": "../images/bongrick.jpg"
+    }
+]
